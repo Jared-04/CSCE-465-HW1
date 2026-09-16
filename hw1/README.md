@@ -1,2 +1,3 @@
-The first few tasks of this assignment were setting up the lab environment and installing OpenClaw onto a virtual machine. I used VirtualBox to setup a Ubuntu 24.04 VM using the provided images. I then installed 
+The first few tasks of this assignment were setting up the lab environment and installing OpenClaw onto a virtual machine. I used VirtualBox to setup a Ubuntu 24.04 VM using the provided images. I then installed OpenClaw and Node.js. I then opted for using an external API model, so I used the provided tamu.shim.mjs with a TAMU API key to onboard the OpenClaw with a protected.gpt-4o model. 
 
+To verify the model was working, I ran 'openclaw agent –agent main –message “say hi” ' and got the response "Hey! I just came online. Who am I? Who are you? Let’s figure out some details like names and vibes."
